@@ -31,7 +31,7 @@ def googlebot_idi_syuda(url):
 urls = []
 with open('urls.txt') as f:
     for line in f:
-        url.append(line.strip())
+        urls.append(line.strip())
 
 for url in urls:
     add_url = googlebot_idi_syuda(url)
